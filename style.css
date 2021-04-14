@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+}
+.site-header {
+    display: flex;
+    height: 150px;
+    background-image: url(img/header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    margin-top: 80px;
+   
+    
+}
+.site-logo {
+    flex: 1;
+}
+.site-logo img {
+    max-width: 100px;
+}
+.site-title {
+    flex:10;
+}
+.site-title h1 {
+    font-size: 5em;
+    text-shadow: 1px 1px 2px black;
+    font-family:'Lucida Bright'; 
+}
+.page-nav {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.page-nav div {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+    
+    
+ 
+}
+.page-nav a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #376fff;
+    color:black;
+    font-family:'Lucida Bright';
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+}
+.page-nav a:hover {
+    background:#CBF1F5;
+}
+.page-nav  a > span {
+    width: 100%;
+}
+
+
+.container {
+    width: 960px;
+    margin: auto;
+    /*outline: 1px solid black;*/
+}
+.about-part {
+    /*display: flex;*/
+    padding: 30px 0;
+    background: rgba(0, 109, 185, .2)
+}
+.about-part .container {
+    display: flex;
+}
+/*.about-part div {
+    flex: 1;
+}*/
+.about-part-image img {
+    max-width: 100%;
+}
+.about-part-text h2 {
+    text-align: center;
+    font-size: 3em;
+}
+.about-part-text p {
+    text-align: center;
+    font-size: 1.3em;
+}
+.about-part-text {
+    margin-left: 25px;
+    flex: 1;
+    color: #4e5052;
+}
+.about-part-image {
+    margin-right: 25px;
+    flex: 1;
+}
+
+.service-part .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service-part-card {
+    width: 30%;
+    margin: 15px;
+    min-height: 350px;
+}
+.service-part-card h3 {
+    text-align: center;
+}
+.service-part-card a {
+    color: black;
+    text-decoration: none;
+}
+.service-part-card-image {
+    max-height: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 50px;
+    
+}
+.service-part-card img {
+    max-width: 100%;
+}
+.service-part-card-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.service-part-card-links a {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+.service-part-card-links span {
+    width: 100%;
+}
+.special-part {
+    background-image: url(img/course.jpg);
+    background-size: cover;
+    padding: 48px 60px;
+    margin: 25px 0;
+}
+.special-part h2 {
+    font-size: 3em;
+    text-align: center;
+}
+.special-part a {
+    display: block;
+    color: #fff;
+    background: #006db9;
+    border: 2px solid #006db9;
+    font-size: 28px;
+    width: 75%;
+    padding: 10px 20px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+}
+.special-part-content {
+    background: rgba(255, 255, 255, .5);
+    padding: 40px 60px;
+}
+
+.site-footer {
+    background: #4d4d4d;
+    justify-content: center;
+
+}
+.site-footer .container {
+    display: flex;
+    align-items: center;
+}
+.site-footer .nav a {
+    color: black;
+    text-decoration: none;
+}
+.nav, .social, .about-dev {
+    flex: 1;
+}
+.site-footer li {
+    list-style-type: none;
+    margin: 10px;
+}
+.social img {
+    margin: 0 5px;
+    max-height: 30px;
+}
+
+.insert-content{
+    width: 100%;
+    align-items: center;
+   
+}
+
+.table table {
+    border: 1px solid black;
+    margin: auto;
+    font-size: 4em;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.table table tr:nth-child(even) {
+    background-color: gray;
+}
+
+.insert-content img {
+    max-width: 25%;
+    border: 3px solid black;
+    padding: 15px;
+    margin: 15px; 
+    background-color: #006db955;
+}
+
+.insert-content img:nth-child(2n) {
+    border:3px solid red;
+}
+
+
+.gallery {
+    display: flex;
+    flex-flow: wrap;
+    padding: 30px;
+    justify-content: center;
+}
+
+.item-phone img, .item-mail img {
+    display: inline-block;
+    flex: 1;
+    vertical-align: middle;
+    margin: 0 5px;
+    max-height: 30px;
+}
+
+.number {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.about-dev h3{
+    text-align: left;
+    padding-left: 58px;
+    
+}
+
+.go-up {
+    position:fixed;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    top: 0;
+}
+.go-up img {
+    width: 60px;
+    height: 60px;
+}
+
+.up-down {
+    flex-direction: column;
+    display: flex;
+    padding: 5px;
+}
+
+.contains h2{
+    text-align: center;
+}
+
+.ouraddress h1{
+    text-align: center;
+}
+
+.video {
+    width:100%;
+    float:left;
+    text-align:center;
+}
+
+.sub, iframe {
+    margin: 0 auto;
+}
